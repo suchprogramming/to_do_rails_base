@@ -1,0 +1,7 @@
+<% content_for(:title, @list.name) %>
+
+<h1>Edit <%= @list.name %> </h1>
+
+<%= render 'form' %>
+
+<p><%= link_to "Return to" + " " + @list.name, list_path %> </p>
